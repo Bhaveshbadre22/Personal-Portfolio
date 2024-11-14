@@ -140,6 +140,16 @@
   }
 }
 
+.btn.mobile-vertical {
+  color: white;
+  text-decoration: none; /* Removes underline */
+}
+
+.btn.mobile-vertical:hover {
+  color: white; /* Keeps text white on hover */
+}
+
+
 /* defaults */
 @media (prefers-color-scheme: light) {
   :root {
